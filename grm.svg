@@ -81,7 +81,7 @@
       <path d="M0 0, h125, v315, L0 220" fill="#000" fill-opacity="0.2" />
     </symbol>
     <!-- Full Crown -->
-    <symbol id="crown" viewBox="0 0 650 1000" preserveAspectRatio="xMidYMid meet">
+    <symbol id="crown" viewBox="0 0 1000 675" preserveAspectRatio="xMidYMid meet">
       <use xlink:href="#crown-background" />
       <use xlink:href="#crown-foreground" />
       <use xlink:href="#shadow-left" width="125" height="375" x="125" y="427.5" transform="rotate(-35 187.5 427.5)" />
