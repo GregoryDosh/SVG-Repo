@@ -74,8 +74,8 @@
     <symbol id="shadow-left" viewBox="0 0 125 375" preserveAspectRatio="xMinYMin meet">
       <path d="M0 0 h125 v300 L0 220" fill="#000" fill-opacity="0.2" />
     </symbol>
-    <symbol id="shadow-middle" viewBox="0 0 125 400" preserveAspectRatio="xMinYMin slice">
-      <path d="M50 0 h125 v280 L0 180 L0 45" fill="#000" fill-opacity="0.2" />
+    <symbol id="shadow-middle" viewBox="0 0 125 400">
+      <path d="M50 0 h125 v400 L-50 300 L-50 75" fill="#000" fill-opacity="0.2" />
     </symbol>
     <symbol id="shadow-right" viewBox="0 0 125 375" preserveAspectRatio="xMinYMin meet">
       <path d="M0 0 h125 v315 L0 220" fill="#000" fill-opacity="0.2" />
