@@ -45,13 +45,24 @@
       <ellipse cx="0" cy="650" rx="500" ry="25" transform="translate(500 0)" style="fill:#4c2a00;stroke:#4c2a00;stroke-width:1" clip-path="url(#cut-left)" />
     </symbol>
     <!-- Emerald -->
-    <clipPath id="emerald-cut-bottom" clipPathUnits="objectBoundingBox">
-      <rect x="0" y="0" width="1" height=".5" transform="translate(0 .5)" />
-    </clipPath>
-    <symbol id="crown-emerald" viewBox="-.5 -.5 1 1" preserveAspectRatio="xMidYMid meet">
-      <g transform="rotate(-35)">
-        <circle cx="0" cy="0" r=".5" style="fill:#339900;" />
-        <circle cx="0" cy="0" r=".5" style="fill:#336600;" clip-path="url(#emerald-cut-bottom)" />
+    <symbol id="emerald-octagon" viewBox="0 0 14 14">
+      <polygon points="0 7, 2 12, 7 14, 12 12, 14 7, 12 2, 7 0, 2 2" transform="rotate(0, 7, 7)"/>
+    </symbol>
+    <symbol id="emerald-slice" viewBox="0 0 1 1">
+      <path d="M1,0 A1,1,0,0,1,.70711,.70711 L0,0" />
+    </symbol>
+    <symbol id="crown-emerald" viewBox="0 0 100 100">
+      <g>
+        <circle cx="50" cy="50" r="50" style="fill:#339900;" />
+        <use xlink:href="#emerald-slice" fill-opacity="0.2" transform="translate(50, 50) rotate(0) scale(.5)"/>
+        <use xlink:href="#emerald-slice" fill-opacity="0.4" transform="translate(50, 50) rotate(45) scale(.5)"/>
+        <use xlink:href="#emerald-slice" fill-opacity="0.2" transform="translate(50, 50) rotate(90) scale(.5)"/>
+        <use xlink:href="#emerald-slice" fill-opacity="0.3" transform="translate(50, 50) rotate(135) scale(.5)"/>
+        <use xlink:href="#emerald-slice" fill-opacity="0.2" transform="translate(50, 50) rotate(180) scale(.5)"/>
+        <use xlink:href="#emerald-slice" fill-opacity="0.1" transform="translate(50, 50) rotate(225) scale(.5)"/>
+        <use xlink:href="#emerald-slice" fill-opacity="0.2" transform="translate(50, 50) rotate(270) scale(.5)"/>
+        <use xlink:href="#emerald-slice" fill-opacity="0.35" transform="translate(50, 50) rotate(315) scale(.5)"/>
+        <use xlink:href="#emerald-octagon" style="fill:#FFFFFF" fill-opacity="0.26" width="55" height="55" x="22.5" y="22.5" />
       </g>
     </symbol>
     <!-- Ruby -->
